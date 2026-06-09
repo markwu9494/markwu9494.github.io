@@ -1,13 +1,13 @@
-title: Mark Wu
-author: Mark Wu
-email: hello@markjhwu.com
+title: Wu Jiahao (Mark)
+author: Wu Jiahao (Mark)
+email: markjhwu@gmail.com
+phone: "+8618520866179"
 description: >-
-  Welcome! This is Mark Wu's personal homepage.
+  Robotics engineer and researcher specializing in humanoid robots, dexterous hands, and surgical robotic systems.
 baseurl: ""
 url: "https://markwu9494.github.io"
 github_username: markwu9494
 
-# Build settings
 theme: minima
 plugins:
   - jekyll-feed
