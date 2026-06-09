@@ -1,8 +1,48 @@
-<p>Hello 大家好</p>
-<p>我是霸都丶傲天，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+---
+layout: default
+title: Home
+---
+<section id="home" class="intro-carousel-container">
+    {% include intro.html %}
+</section>
 
-<ul>
-  <li> <a href="https://www.zhihu.com/people/AJLoveChina">知乎</a> </li>
-  <li> <a href="http://hejie.nigeerhuo.com">我的博客(已经不更细了,现在在知乎写文章)</a> </li>
-</ul>
+<!-- PROJECTS -->
+<section id="featured-projects">
+    {% include featured-projects.html %}
+</section>
+
+<section id="company-projects">
+    {% include company-projects.html %}
+</section>
+
+<section id="software-projects">
+    {% include software-projects.html %}
+</section>
+
+<section id="research-projects">
+    {% include research-school-projects.html %}
+</section>
+
+
+<script> // Header scroll effect
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            const headerHeight = document.querySelector('.site-header').offsetHeight;
+            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+</script>
+
+{% include modal.html %}

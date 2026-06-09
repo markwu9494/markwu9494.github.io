@@ -1,0 +1,76 @@
+endo-continuum-robot:
+  title: "Endo Continuum Robot"
+  technology:
+    - "Continuum Robotics"
+    - "CAD Design"
+    - "Arduino"
+    - "Medical Robotics"
+    - "Embedded Control"
+  external_links:
+    - text: "CAD Repository"
+      url: "https://github.com/markwu9494/Endo-Continuum-Robot"
+    - text: "Control Library"
+      url: "https://github.com/markwu9494/Endo-Continuum-Robot-Library"
+
+openhand:
+  title: "OpenHand Platform"
+  technology:
+    - "Dexterous Manipulation"
+    - "Dynamixel"
+    - "Python"
+    - "Hardware Design"
+    - "Grasping"
+  external_links:
+    - text: "Hardware Repo"
+      url: "https://github.com/markwu9494/openhand-hardware"
+    - text: "Software Repo"
+      url: "https://github.com/markwu9494/openhand-software"
+
+dvrk-ros:
+  title: "daVinci Research Kit ROS Stack"
+  technology:
+    - "Surgical Robotics"
+    - "ROS"
+    - "Teleoperation"
+    - "System Integration"
+    - "Medical Devices"
+  external_links:
+    - text: "Project Repo"
+      url: "https://github.com/markwu9494/dvrk-ros"
+    - text: "dVRK Wiki"
+      url: "https://github.com/jhu-dvrk/sawIntuitiveResearchKit/wiki"
+
+netft-utils:
+  title: "Net F/T Sensor ROS Utilities"
+  technology:
+    - "ROS"
+    - "Force/Torque Sensing"
+    - "Robot Calibration"
+    - "C++"
+  external_links:
+    - text: "Project Repo"
+      url: "https://github.com/markwu9494/netft_utils"
+
+advanced-robotics:
+  title: "Advanced Robotics Research"
+  technology:
+    - "Robotics"
+    - "Control Theory"
+    - "Kinematics"
+    - "Simulation"
+  external_links:
+    - text: "Project Repo"
+      url: "https://github.com/markwu9494/Advanced_Robotics"
+
+modern-robotics:
+  title: "Modern Robotics Library"
+  technology:
+    - "Motion Planning"
+    - "Dynamics"
+    - "Kinematics"
+    - "Manipulation"
+  external_links:
+    - text: "Project Repo"
+      url: "https://github.com/markwu9494/ModernRobotics"
+    - text: "Textbook Site"
+      url: "http://modernrobotics.org/"

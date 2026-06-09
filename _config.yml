@@ -1,0 +1,27 @@
+title: Mark Wu
+author: Mark Wu
+email: hello@markjhwu.com
+description: >-
+  Welcome! This is Mark Wu's personal homepage.
+baseurl: ""
+url: "https://markwu9494.github.io"
+github_username: markwu9494
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+image_path: /assets/images
+
+markdown: kramdown
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+sass:
+  sass_dir: _sass
+  style: compressed

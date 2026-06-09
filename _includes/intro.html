@@ -1,0 +1,63 @@
+<div class="content-wrapper">
+    <div class="introduction">
+        <h1>About</h1>
+        <p>I'm a robotics engineer and researcher based in Hong Kong. I'm interested in surgical robotics, continuum robots, dexterous manipulation, and building reliable systems that bridge simulation, hardware, and real-world deployment.</p>
+        <p>I'm affiliated with The Chinese University of Hong Kong, where I work on advanced robotics projects spanning medical devices, ROS-based control stacks, and open-source hardware platforms.</p>
+        <div class="affiliations">
+            <div class="affiliation">
+                <img src="assets/images/cuhk-logo.png" alt="The Chinese University of Hong Kong" class="affiliation-logo">
+                <p>Robotics Researcher</p>
+            </div>
+            <div class="affiliation">
+                <img src="assets/images/cuhk-logo.png" alt="Hong Kong" class="affiliation-logo">
+                <p>Hong Kong</p>
+            </div>
+        </div>
+    <p class="contact-note">Feel free to reach out about robotics, engineering, or collaboration via my <a href="mailto:{{ site.email }}">email</a> or <a href="https://github.com/markwu9494" target="_blank">GitHub</a>.</p>
+    </div>
+
+    <div class="carousel-wrapper">
+        <section class="image-carousel">
+            <div class="carousel-container">
+                <img src="assets/images/profile_1.jpg" alt="Robotics research and development" class="carousel-image">
+                <img src="assets/images/profile_2.jpg" alt="Surgical robotics projects" class="carousel-image">
+                <img src="assets/images/profile_3.jpg" alt="Mark Wu" class="carousel-image active">
+                <button class="carousel-button prev" onclick="changeImage(-1)">❮</button>
+                <button class="carousel-button next" onclick="changeImage(1)">❯</button>
+            </div>
+            <p id="image-caption" class="image-caption"></p>
+        </section>
+    </div>
+</div>
+
+<script>
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.carousel-image');
+    const caption = document.getElementById('image-caption');
+    
+    function showImage(index) {
+        images.forEach((image, i) => {
+            image.classList.remove('active');
+            if (i === index) {
+                image.classList.add('active');
+                caption.textContent = image.alt;
+            }
+        });
+    }
+    
+    function changeImage(direction) {
+        currentIndex += direction;
+        if (currentIndex < 0) {
+            currentIndex = images.length - 1;
+        } else if (currentIndex >= images.length) {
+            currentIndex = 0;
+        }
+        showImage(currentIndex);
+    }
+    
+    showImage(currentIndex);
+    
+    setInterval(() => {
+        changeImage(1);
+    }, 5000);
+</script>
