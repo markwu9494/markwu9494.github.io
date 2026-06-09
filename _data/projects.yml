@@ -1,1 +1,61 @@
-{}
+structured-light-intravitreal:
+  title: "Structured-Light Robotic System for Automated Intravitreal Injection"
+  technology:
+    - "Ophthalmic Robotics"
+    - "Structured Light"
+    - "Automated Injection"
+    - "Pre-Fixation"
+    - "Surgical Robotics"
+  external_links:
+    - text: "Google Scholar Profile"
+      url: "https://scholar.google.com/citations?user=gmNreYIAAAAJ"
+    - text: "ROBIO 2022 Paper"
+      url: "https://ieeexplore.ieee.org/document/9968665"
+
+sher-3:
+  title: "Steady-Hand Eye Robot 3.0 (SHER)"
+  technology:
+    - "Cooperative Control"
+    - "RCM Mechanism"
+    - "Subretinal Injection"
+    - "Ophthalmic Microsurgery"
+    - "Admittance Control"
+  external_links:
+    - text: "TMRB 2023 Paper (PMC)"
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10831842/"
+    - text: "JHU Eye Robot Lab"
+      url: "https://ciis.lcsr.jhu.edu/doku.php?id=research.eyerobots"
+    - text: "IROS 2020 Paper"
+      url: "https://ieeexplore.ieee.org/document/9341176"
+
+uterine-manipulator:
+  title: "Robotic Uterine Manipulator for Laparoscopic Hysterectomy"
+  technology:
+    - "Gynecologic Surgery"
+    - "Remote Center of Motion"
+    - "Soft RCM Constraints"
+    - "Motorized 3-DoF Rod"
+    - "Clinical Validation"
+  external_links:
+    - text: "IEEE TBME 2023"
+      url: "https://ieeexplore.ieee.org/document/10038654"
+    - text: "IEEE TMRB 2022"
+      url: "https://ieeexplore.ieee.org/document/9790864"
+    - text: "CUHK T-Stone Robotics Institute"
+      url: "https://ri.cuhk.edu.hk/en/research/projects/image-guided-automatic-robotic-surgery"
+
+spotlight-guidance:
+  title: "Spotlight-Based 3D Instrument Guidance for Retinal Surgery"
+  technology:
+    - "Visual Servoing"
+    - "3D Instrument Guidance"
+    - "Vessel Tracking"
+    - "Retinal Microsurgery"
+    - "Autonomous Task Execution"
+  external_links:
+    - text: "IEEE RAL 2021 (PMC)"
+      url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8932929/"
+    - text: "arXiv Preprint"
+      url: "https://arxiv.org/abs/2012.06292"
+    - text: "ISMR 2020 Paper"
+      url: "https://ieeexplore.ieee.org/document/9110345"
